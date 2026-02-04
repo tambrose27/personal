@@ -3,6 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .container {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 40px;
+    }
+    
+    .project {
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        padding: 20px;
+    }
+  </style>
+
   <title>My Portfolio</title>
 
   <link rel="stylesheet" href="./style.css">
@@ -20,17 +34,14 @@
     </header>
 
     <section id="about">
-        <section id="about">
-            <div class="container">
-              <img src="./images/profile.png" alt="Profile Photo">
-              <h1>Tucker Ambrose</h1>
-              <p>This is my Personal Website</p>
-              <p>I am a student at Iowa State University studying Software Engineering. My relevent coursework 
-                cover object orieqnted programming, data structures, embedded systems, and user interface design.
-              </p>
-            </div>
-          </section>
-
+        <div class="container">
+            <img src="./images/profile.png" alt="Profile Photo">
+            <h1>Tucker Ambrose</h1>
+            <p style="font-family: 'Courier New', Courier, monospace; color: brown" >This is my Personal Website</p>
+            <p>I am a student at Iowa State University studying Software Engineering. My relevant coursework 
+            cover object-oriented programming, data structures, embedded systems, and user interface design.
+            </p>
+        </div>
     </section>
 
     <section id="projects">
@@ -42,7 +53,7 @@
               <h3>Project 1</h3>
               <p>This project focuses on building a digital logic circuit simulator using object-oriented programming. 
                 The system represents logic gates as connected nodes organized in a tree structure. 
-                Recursive evaluation is used to compute outputs based on input values. The project 
+                Recursive evaluation computes outputs based on input values. The project 
                 demonstrates structured program design and modeling hardware logic through software.</p>
             </div>
         
